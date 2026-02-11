@@ -1,0 +1,7 @@
+{
+  "name": "cvstall.com: Elegant Professional Marketplace",
+  "description": "A refined professional platform for crafting exquisite CVs and discovering elite job opportunities with a clean, warm aesthetic.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
