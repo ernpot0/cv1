@@ -1,18 +1,18 @@
 
 import React, { useState, useEffect, createContext, useContext, useMemo } from 'react';
 import { HashRouter, Routes, Route, Navigate, Link } from 'react-router-dom';
-import { User, UserRole, CV, CVVisibility, JobPost, JobPostStatus } from './types';
-import { db } from './lib/mockDb';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import SeekerDashboard from './pages/SeekerDashboard';
-import EmployerDashboard from './pages/EmployerDashboard';
-import CVEditor from './pages/CVEditor';
-import JobEditor from './pages/JobEditor';
-import CVView from './pages/CVView';
-import JobView from './pages/JobView';
-import MessagesPage from './pages/Messages';
-import { Layout } from './components/Layout';
+import { User, UserRole, CV, CVVisibility, JobPost, JobPostStatus } from './types.ts';
+import { db } from './lib/mockDb.ts';
+import Login from './pages/Login.tsx';
+import Register from './pages/Register.tsx';
+import SeekerDashboard from './pages/SeekerDashboard.tsx';
+import EmployerDashboard from './pages/EmployerDashboard.tsx';
+import CVEditor from './pages/CVEditor.tsx';
+import JobEditor from './pages/JobEditor.tsx';
+import CVView from './pages/CVView.tsx';
+import JobView from './pages/JobView.tsx';
+import MessagesPage from './pages/Messages.tsx';
+import { Layout } from './components/Layout.tsx';
 
 interface AppContextType {
   user: User | null;
